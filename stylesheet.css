@@ -4,13 +4,13 @@ body {
 
 @font-face {
     font-family: SpaceFont;
-    src: url(./SpaceFrigate-KVdW.ttf);
+    src: url(./SpaceFrigate.ttf);
 
 }
 
 @font-face {
     font-family: SciFied;
-    src: url(./SpaceRanger-EMJl.otf);
+    src: url(./SpaceRanger.otf);
 }
 
 .container {
@@ -22,16 +22,26 @@ form, header {
 }
 
 header {
-    font-family: SpaceFont;
+    font-family: SpaceFont, sans-serif;
     font-size: 34px;
+    background-color: rgb(40, 52, 68);
 }
 
 p {
-    font-family: SciFied;
+    font-family: SciFied, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
 
 form {
-    font-family: SpaceFont;
+    font-family: SpaceFont, sans-serif;
+}
+
+.imgContainer {
+    margin-right: 15px;
+}
+
+.gif, .space {
+    border: 4px solid yellow;
+    border-radius: 5px;
 }
