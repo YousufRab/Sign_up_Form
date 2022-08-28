@@ -1,3 +1,37 @@
 body {
-    background-color: rgb(6, 6, 87);
+    background-color: rgb(0, 0, 77);
+}
+
+@font-face {
+    font-family: SpaceFont;
+    src: url(./SpaceFrigate-KVdW.ttf);
+
+}
+
+@font-face {
+    font-family: SciFied;
+    src: url(./SpaceRanger-EMJl.otf);
+}
+
+.container {
+    display: flex;
+}
+
+form, header {
+    color: white;
+}
+
+header {
+    font-family: SpaceFont;
+    font-size: 34px;
+}
+
+p {
+    font-family: SciFied;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+form {
+    font-family: SpaceFont;
 }
