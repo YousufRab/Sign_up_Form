@@ -62,3 +62,8 @@ form {
     border: solid 2px white;
     border-radius: 3px;
 }
+
+input {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
