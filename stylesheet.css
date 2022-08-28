@@ -26,16 +26,22 @@ header {
     font-family: SpaceFont, sans-serif;
     font-size: 34px;
     background-color: rgb(40, 52, 68);
+    text-align: center;
 }
 
 p {
     font-family: SciFied, sans-serif;
     color: rgb(255, 255, 255);
     font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 form {
     font-family: SpaceFont, sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .imgContainer {
@@ -47,6 +53,12 @@ form {
     border-radius: 5px;
 }
 
+.gif {
+    margin-bottom: -5px;
+}
+
 .formContainer {
-    width: 382px;
+    width: 400px;
+    border: solid 2px white;
+    border-radius: 3px;
 }
