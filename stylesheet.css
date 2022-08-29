@@ -75,12 +75,11 @@ fieldset {
     padding: 10px 30px;
 }
 
-legend > div {
-    padding-top: 10px;
-    padding-bottom: 0px;
+.personal {
+    padding-bottom: 10px;
 }
 
 label {
-    width: 150px;
+    width: 200px;
     display: inline-block;
 }
