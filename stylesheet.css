@@ -69,7 +69,10 @@ input {
     margin-bottom: 4px;
     width: 170px;
     border-radius: 6px;
-    border: 1px solid white; 
+    border: 1px solid white;
+    padding-left: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 input:hover, input:focus {
