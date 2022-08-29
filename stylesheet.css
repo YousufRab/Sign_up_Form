@@ -92,6 +92,21 @@ input:required + span::after {
     left: -60px;
 }
 
+input + span::before {
+    position: absolute;
+    right: -20px;
+    top: 3px;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:invalid + span::before {
+    content: "✖";
+    color: red;
+}
+
 fieldset {
     padding: 15px 30px;
 }
