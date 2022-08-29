@@ -76,6 +76,10 @@ input:hover, input:focus {
     background-color: rgb(223, 223, 223);
 }
 
+input + span {
+    position: relative;
+}
+
 fieldset {
     padding: 15px 30px;
 }
