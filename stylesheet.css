@@ -64,7 +64,7 @@ form {
     border-radius: 3px;
 }
 
-input {
+.perInput {
     margin-top: 4px;
     margin-bottom: 4px;
     width: 170px;
@@ -129,8 +129,3 @@ fieldset {
     width: 195px;
     display: inline-block;
 }
-
-* {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
-  }
