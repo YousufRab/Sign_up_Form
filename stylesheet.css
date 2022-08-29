@@ -67,7 +67,7 @@ form {
 input {
     margin-top: 4px;
     margin-bottom: 4px;
-    width: 150px;
+    width: 170px;
     border-radius: 6px;
     border: 1px solid white; 
 }
@@ -81,6 +81,6 @@ fieldset {
 }
 
 label {
-    width: 200px;
+    width: 195px;
     display: inline-block;
 }
