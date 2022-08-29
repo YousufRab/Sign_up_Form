@@ -94,8 +94,14 @@ input:required + span::after {
 
 input + span::before {
     position: absolute;
-    right: -20px;
+    right: -18px;
     top: 3px;
+}
+
+input:valid + span::before {
+    content: '✓';
+    color: green;
+    font-size: 1.1rem;
 }
 
 input:invalid {
