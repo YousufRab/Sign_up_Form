@@ -125,7 +125,12 @@ fieldset {
     padding-bottom: 20px;
 }
 
-label {
+.perLabel {
     width: 195px;
     display: inline-block;
 }
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
