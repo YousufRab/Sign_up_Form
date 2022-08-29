@@ -26,38 +26,44 @@
                 <fieldset>
                     <legend>Personal Details</legend>
                         <div class="personal">
-                            <label for="firstName">First Name</label>
+                            <label class="perLabel" for="firstName">First Name</label>
                             <input type="text" id="firstName" required>
                             <span></span>
                         </div>
                         <div class="personal">
-                            <label for="lastName">Last Name</label>
+                            <label class="perLabel" for="lastName">Last Name</label>
                             <input type="text" id="lastName" required>
                             <span></span>
                         </div>
                         <div class="personal">
-                            <label for="email">Email</label>
+                            <label class="perLabel" for="email">Email</label>
                             <input type="email" id="email" required>
                             <span></span>
                         </div>
                         <div class="personal">
-                            <label for="telNumber">Contact Number</label>
+                            <label class="perLabel" for="telNumber">Contact Number</label>
                             <input type="tel" id="telNumber" placeholder="(+1)-xxx-xxx-xxxx">
                             <span></span>
                         </div>
                         <div class="personal">
-                            <label for="pwd">Password</label>
+                            <label class="perLabel" for="pwd">Password</label>
                             <input type="password" id="pwd" required>
                             <span></span>
                         </div>
                         <div>
-                            <label for="confirmPwd">Confirm Password</label>
+                            <label class="perLabel" for="confirmPwd">Confirm Password</label>
                             <input type="password" id="confirmPwd" required>
                             <span></span>
                         </div>                   
                 </fieldset>
                 <fieldset class="secondField">
                     <legend>Skills</legend>
+                    <label for="_checkbox">Engineering</label>
+                    <input type="checkbox" id="_checkbox">
+                    <label for="_checkbox" class="checkLabel">
+                        <div id="tick_mark"></div>
+                    </label>
+
                 </fieldset>
             </form>
         </div>
