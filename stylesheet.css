@@ -67,4 +67,20 @@ form {
 input {
     margin-top: 4px;
     margin-bottom: 4px;
+    width: 150px;
+    
+}
+
+fieldset {
+    padding: 10px 30px;
+}
+
+legend > div {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+label {
+    width: 150px;
+    display: inline-block;
 }
