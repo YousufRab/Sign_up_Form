@@ -43,6 +43,8 @@ form {
     font-family: SpaceFont, sans-serif;
     padding-left: 7px;
     padding-right: 7px;
+    display: flex;
+    flex-direction: column;
 }
 
 .imgContainer {
@@ -217,5 +219,9 @@ input[type=radio]:checked:hover + label + label>img {
 
 input[type=radio]:hover + label +label>img {
     background-color: rgb(188, 247, 181)
+}
+
+#subBtn {
+    ;
 }
 
