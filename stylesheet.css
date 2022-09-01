@@ -169,3 +169,6 @@ input[type=checkbox]:checked + label:before{
     border-color: rgb(34, 214, 10);
 }
 
+.thirdField {
+    margin-top: 10px;
+}
