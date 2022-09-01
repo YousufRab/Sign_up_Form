@@ -172,3 +172,10 @@ input[type=checkbox]:checked + label:before{
 .thirdField {
     margin-top: 10px;
 }
+
+#engSVG, #medSVG, #scSVG {
+    width: 75px;
+    background-color: white;
+    border: 1px solid rgb(72, 166, 255);
+    border-radius: 4.5px;
+}
