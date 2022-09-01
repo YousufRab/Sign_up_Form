@@ -184,3 +184,14 @@ input[type=checkbox]:checked + label:before{
     display: flex;
 }
 
+input[type=radio] {
+    border: 0;
+    clip: rect(0,0,0,0);
+    height: 0px;
+    overflow: hidden;
+    padding: 0;
+    white-space: nowrap;
+    width: 0px;
+    position: absolute;
+}
+
