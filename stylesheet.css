@@ -222,7 +222,7 @@ input[type=radio]:checked:hover + label + label>img {
 }
 
 input[type=radio]:hover + label +label>img {
-    background-color: rgb(188, 247, 181)
+    background-color: rgb(188, 247, 181);
 }
 
 #subBtn {
@@ -243,7 +243,7 @@ input[type=radio]:hover + label +label>img {
 }
 
 #subBtn:active {
-    border: 2px solid greenyellow;
+    border: 2px solid rgb(34, 214, 10);
     color: white;
     background-color: black;
 }
