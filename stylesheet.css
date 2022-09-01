@@ -115,6 +115,10 @@ input:invalid + span::before {
     color: red;
 }
 
+.firstField {
+    margin-top: -8px;
+}
+
 fieldset {
     padding: 15px 30px;
 }
@@ -224,17 +228,23 @@ input[type=radio]:hover + label +label>img {
 #subBtn {
     align-self: center;
     margin-top: 10px;
-    padding: 3px;
+    padding: 5px;
     font-family: inherit;
     border: 2px solid white;
     border-radius: 3.5px;
     color: white;
-    background-color: black;
+    background-color: transparent;
 }
 
 #subBtn:hover {
     border: 2px solid black;
     color: black;
     background-color: white;
+}
+
+#subBtn:active {
+    border: 2px solid greenyellow;
+    color: white;
+    background-color: black;
 }
 
