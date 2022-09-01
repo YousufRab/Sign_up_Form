@@ -119,6 +119,7 @@ fieldset {
 
 .secondField {
     margin-top: 10px;
+    display: flex;
 }
 
 .personal {
@@ -155,7 +156,7 @@ input[type=checkbox] + label:before{
     margin-right: 0.2em;
     vertical-align: bottom;
     color: transparent;
-    transition: .5s;
+    transition: 0.7s;
 }
 
 input[type=checkbox] + label:active::before {
