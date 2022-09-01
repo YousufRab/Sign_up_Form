@@ -181,6 +181,7 @@ input[type=checkbox]:checked + label:before{
     border: 2px solid rgb(72, 166, 255);
     border-radius: 4.5px;
     padding: 3px;
+    transition: .7s;
     
 }
 
@@ -211,6 +212,7 @@ input[type=radio]:checked + label + label>img,
 input[type=radio]:checked:hover + label + label>img {
     background-color:rgb(34, 214, 10);
     border: 2px solid rgb(238, 255, 0);
+    box-shadow: 1px 1px 1px inset greenyellow;
 }
 
 input[type=radio]:hover + label +label>img {
