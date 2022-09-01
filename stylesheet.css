@@ -131,7 +131,10 @@ fieldset {
 }
 
 input[type=checkbox] + label{
-    display: block;
+    display: inline-block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
 }
 
 input[type=checkbox]{
@@ -140,15 +143,28 @@ input[type=checkbox]{
 
 input[type=checkbox] + label:before{
     content: "\2714";
-    border: 0.1em solid #000;
+    border: 0.1em solid rgb(255, 255, 255);
+    border-radius: 0.25em;
     display: inline-block;
     width: 0.8em;
     height: 0.8em;
     padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-bottom: 0.2em;
     color: transparent;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .5s;
+}
+
+input[type=checkbox] + label:active::before {
+    transform:scale(0);
 }
 
 input[type=checkbox]:checked + label:before{
-    background-color: mediumseagreen;
+    background-color: rgb(34, 214, 10);
     color: #fff;
+    border-color: rgb(34, 214, 10);
 }
+
