@@ -182,7 +182,7 @@ input[type=checkbox]:checked + label:before{
 }
 
 .engSVG, .medSVG, .scSVG {
-    width: 65px;
+    width: 45px;
     background-color: white;
     border: 2px solid rgb(72, 166, 255);
     border-radius: 4.5px;
