@@ -248,3 +248,7 @@ input[type=radio]:hover + label +label>img {
     background-color: black;
 }
 
+footer {
+    color: white;
+}
+
