@@ -13,5 +13,7 @@ submitBtn = document.getElementById('subBtn');
 submitBtn.addEventlistener('click', (event) => {
     if (validatePass() == false) {
         event.preventDefault();
+        alert("Passwords did not match");
+        
     } 
 });
