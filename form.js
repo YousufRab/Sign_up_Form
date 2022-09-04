@@ -10,4 +10,8 @@ function validatePass() {
 }
 
 submitBtn = document.getElementById('subBtn');
-submitBtn.addEventlistener('click', validatePass());
+submitBtn.addEventlistener('click', (event) => {
+    if (validatePass() == false) {
+        event.preventDefault();
+    } 
+});
