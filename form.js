@@ -10,10 +10,9 @@ function validatePass() {
 }
 
 submitBtn = document.getElementById('subBtn');
-submitBtn.addEventlistener('click', (event) => {
+submitBtn.addEventlistener('submit', () => {
     if (validatePass() == false) {
-        event.preventDefault();
         alert("Passwords did not match");
-        
+        window.history.forward(-1);
     } 
 });
