@@ -9,10 +9,11 @@ function validatePass() {
     }
 }
 
-const submitBtn = document.getElementById('subBtn');
-submitBtn.addEventlistener('click', () => {
-    if (validatePass() == false) {
-        alert("Passwords did not match");
-        window.history.forward(-1);
-    } 
-});
+document.addEventlistener('BeforeFormSubmit', function(event) {
+    var pw1 = document.getElementById('pwd');
+    var pw2 = document.getElementById('confirmPwd');
+    if (pw1 != pw2) {
+        event.preventDefault();
+        alert("Passwords did not match")
+    }
+})
