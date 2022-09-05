@@ -9,8 +9,8 @@ function validatePass() {
     }
 }
 
-submitBtn = document.getElementById('subBtn');
-submitBtn.addEventlistener('submit', () => {
+const submitBtn = document.getElementById('subBtn');
+submitBtn.addEventlistener('click', () => {
     if (validatePass() == false) {
         alert("Passwords did not match");
         window.history.forward(-1);
