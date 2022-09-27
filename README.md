@@ -1,6 +1,6 @@
 # Sign-up Form
 
-A sign-up form made using mainly HTML5 and CSS3. 
+A sign-up form created using mainly HTML5 and CSS3. 
 
 ## Credits
 Space gif - [Michael Shillingburg](https://giphy.com/michaelshillingburg/)
