@@ -49,7 +49,7 @@ form {
 
 .imgContainer {
     margin-right: -4px;
-    margin-top: 21.5px;
+    margin-top: 26px;
 }
 
 .gif, .space {
@@ -158,7 +158,7 @@ input[type=checkbox] + label:before{
     height: 0.8em;
     padding-left: 0.2em;
     padding-right: 0.2em;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.6em;
     color: transparent;
     margin-right: 0.4em;
     vertical-align: bottom;
